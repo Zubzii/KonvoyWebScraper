@@ -7,9 +7,9 @@ using static System.Net.WebRequestMethods;
 
 namespace WebScraper
 {
-    class Program
+    class KonvoyWebScraper
     {
-        static void Main(string[] args)
+        public static void Run()
         {
             //Send get request to Konvoy Content Website
             string url = "https://www.konvoy.vc/content";
@@ -40,7 +40,7 @@ namespace WebScraper
             var newHtmlDocument = new HtmlDocument();
             newHtmlDocument.LoadHtml(newHtml);
 
-            var newHeaderNodes = htmlDocument.DocumentNode.SelectNodes("//p");
+            var newHeaderNodes = newHtmlDocument.DocumentNode.SelectNodes("//li");
             if (newHeaderNodes != null)
             {
                 foreach (var newHeader in newHeaderNodes)
