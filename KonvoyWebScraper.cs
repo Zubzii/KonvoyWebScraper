@@ -32,7 +32,7 @@ namespace WebScraper
             var first_link = hrefs[0];
             Console.WriteLine(first_link);
 
-            //Pulls text from Konvoy's most revent newsletter
+            //Pulls text from Konvoy's most recent newsletter
             string newUrl = "https://www.konvoy.vc" + first_link;
             Console.WriteLine(newUrl);
             var newHttpClient = new HttpClient();
