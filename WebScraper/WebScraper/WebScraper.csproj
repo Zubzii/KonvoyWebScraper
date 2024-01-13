@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\asche\OneDrive\Desktop\WebScraper\KonvoyWebScraper\KonvoyWebScraper.cs" Link="KonvoyWebScraper.cs" />
+    <Compile Include="C:\Users\asche\OneDrive\Desktop\WebScraper\KonvoyWebScraper\WebScraper.cs" Link="WebScraper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.57" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.16.2" />
+  </ItemGroup>
+
+</Project>

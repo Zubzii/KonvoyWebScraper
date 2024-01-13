@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aUcZVLqG//uER8aae2CtMdIEXVZWj4cnT+l3cC/NR72V00myQPGiywhCiSlKV+hqH0ccYNFyrqHn5yT6j3nDyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asche\\source\\repos\\WebScraper\\WebScraper\\WebScraper\\WebScraper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asche\\.nuget\\packages\\htmlagilitypack\\1.11.57\\htmlagilitypack.1.11.57.nupkg.sha512",
+    "C:\\Users\\asche\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\asche\\.nuget\\packages\\selenium.webdriver\\4.16.2\\selenium.webdriver.4.16.2.nupkg.sha512"
+  ],
+  "logs": []
+}
